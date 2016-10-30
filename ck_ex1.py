@@ -1,5 +1,4 @@
 import heapq
-"""
 records=[
     ('foo',1,2),
     ('bar','hello'),
@@ -54,7 +53,6 @@ print(expensive_3)
 heapq.heapify(nums)
 print("使用堆排序 nums")
 print(nums)
-"""
 #用heapq实现优先级队列
 class PriorityQueue:
     def __init__(self):
