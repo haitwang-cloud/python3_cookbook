@@ -1,6 +1,6 @@
 from collections import defaultdict
 from collections import OrderedDict
-"""
+
 #multidict 一个键对应多个值
 print('一个键对应多个值')
 d={
@@ -47,7 +47,7 @@ min_price=min(zip(prices.values(),prices.keys()))
 max_price=max(zip(prices.values(),prices.keys()))
 prices_sorted=sorted(zip(prices.values(),prices.keys()))
 print("min_price=",min_price,"max_price",max_price,"prices_sorted",prices_sorted[::-1])
-"""
+
 #寻找两个字典的相同点
 a={
     'x':1,
